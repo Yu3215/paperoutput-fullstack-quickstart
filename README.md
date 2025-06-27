@@ -1,8 +1,10 @@
 # PaperOutput-fullstack-quickstart
 在项目[Google Gemini Fullstack LangGraph Quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart/)基础上进行修改的：  
 
-1、把基于gemini的接口改为基于openai的接口。  
-2、将原本的搜索功能改为根据主题、研究方法和参考期刊论文生成所需论文的model/Methodology部分。
+1、把基于gemini的接口改为基于openai、antropic、google的接口。  
+2、将原本的搜索功能改为根据主题、研究方法和参考期刊论文生成所需论文的model/Methodology部分。  
+
+更改论文参考样例在backend/src/agent/tools_d_schemas.py中get_journal_examples的fewshot
 
 ## Getting Started
 
