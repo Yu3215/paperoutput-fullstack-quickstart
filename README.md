@@ -32,3 +32,5 @@ make dev
 ```
 
 最终的页面是(`http://localhost:5173/app`)
+
+<img src="./agent.png" title="Agent Flow" alt="Agent Flow" width="50%">
