@@ -1,4 +1,4 @@
-# paperoutput-fullstack-quickstart
+# PaperOutput-fullstack-quickstart
 在项目[Google Gemini Fullstack LangGraph Quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart/)基础上进行修改的：  
 
 1、把基于gemini的接口改为基于openai的接口。  
@@ -8,8 +8,8 @@
 
 python版本为3.11以上  
 需要Node.js和npm (或者yarn/pnpm)   
-创建一个backend/.env文件，里面包括俩个参数：OPENAI_API_BASE和OPENAI_API_KEY  
-按照原始项目安装执行  
+创建一个backend/.env文件，里面包括两个参数：OPENAI_API_BASE和OPENAI_API_KEY  
+按照原始项目安装执行：  
 
 **后端:**
 
@@ -33,4 +33,9 @@ make dev
 
 最终的页面是(`http://localhost:5173/app`)
 
+前端页面为  
+<img src="./app.png" title="app" alt="app" width="100%">
+
+workflow:  
 <img src="./agent.png" title="Agent Flow" alt="Agent Flow" width="50%">
+
